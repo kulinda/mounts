@@ -10,7 +10,7 @@ const original = {
 		'raptor': ['Canyon Spiketail', 'Coastal Spiketail', 'Flamelander', 'Savannah Monitor', 'Storm Ridge', 'Striped Tri-horn'],
 		'springer': ['Arctic Jerboa', 'Desert Lop', 'Elonian Jackalope', 'Primal Hare', 'Tawny Hare', 'Windy Spot'],
 		'skimmer': ['Bright Ringfin', 'Dajkah Lantern', 'River Moth Wing', 'Oasis Skate', 'Oceanic Ray', 'Spined Longtail'],
-		'jackal': ['Banded Mystic', 'Crowned Ancient', 'Polished Stone (mount skin)', 'Pyroclast', 'Stardust', 'Twin Sands'],
+		'jackal': ['Banded Mystic', 'Crowned Ancient', 'Polished Stone (mount skin)', 'Pyroclast', 'Stardust (mount skin)', 'Twin Sands'],
 		'griffon': ['Badlands Stalker', 'Clouded Corvus', 'Fire Pinion', 'Highlands Harrier', 'Spotted Sylph', 'Starbound'],
 	}
 };
@@ -34,8 +34,9 @@ const istani = {
 const racer = {
 	name: 'Desert Racer',
 	prices: {
-		1: 400, // TODO: this is just guesswork
+		1: 400,
 		5: 1800,
+		15: 5100,
 		select: 1200
 	},
 	mounts: {
@@ -44,7 +45,7 @@ const racer = {
 		'skimmer': ['Arid Hammerhead', 'Iceberg'],
 		'jackal': ['Dune Mastiff', 'Mirror Masked'],
 		'griffon': ['Northern Feather Wing', 'Storm Chaser', 'Tufted Night Eye'],
-		'beetle': ['Colossal Ladybird', 'Funerary Scarab', 'Primeval (roller beetle skin)', 'Trailblazer (roller beetle skin)'],
+		'beetle': ['Colossal Ladybird', 'Funerary Scarab', 'Primeval (roller beetle skin)', 'Trailblazer (mount skin)'],
 	}
 };
 
@@ -77,7 +78,7 @@ export const iconurls = {
 	'Crowned_Ancient': 'images/3/3b/Crowned_Ancient.png',
 	'Polished_Stone_(mount_skin)': 'images/2/2f/Polished_Stone_%28mount_skin%29.png',
 	'Pyroclast': 'images/9/96/Pyroclast.png',
-	'Stardust': 'images/6/65/Stardust.png',
+	'Stardust_(mount_skin)': 'images/9/98/Stardust_%28mount_skin%29.png',
 	'Twin_Sands': 'images/b/bc/Twin_Sands.png',
 	'Badlands_Stalker': 'images/c/c5/Badlands_Stalker.png',
 	'Clouded_Corvus': 'images/0/0e/Clouded_Corvus.png',
@@ -100,4 +101,19 @@ export const iconurls = {
 	'Exalted_Sky_Sentry': 'images/b/b5/Exalted_Sky_Sentry.png',
 	'Istani_Bald': 'images/f/f3/Istani_Bald.png',
 	'Sky_Bandit': 'images/0/04/Sky_Bandit.png',
+	'Ntouka_Snakescale': 'images/6/64/Ntouka_Snakescale.png',
+	'Starscale': 'images/0/03/Starscale.png',
+	'Kourna_Jackrabbit': 'images/8/8f/Kourna_Jackrabbit.png',
+	'Painted_Mesa': 'images/8/8f/Painted_Mesa.png',
+	'Arid_Hammerhead': 'images/4/46/Arid_Hammerhead.png',
+	'Iceberg': 'images/2/2a/Iceberg.png',
+	'Dune_Mastiff': 'images/d/d3/Dune_Mastiff.png',
+	'Mirror_Masked': 'images/9/94/Mirror_Masked.png',
+	'Northern_Feather_Wing': 'images/9/9c/Northern_Feather_Wing.png',
+	'Storm_Chaser': 'images/1/1f/Storm_Chaser.png',
+	'Tufted_Night_Eye': 'images/1/1d/Tufted_Night_Eye.png',
+	'Colossal_Ladybird': 'images/b/b7/Colossal_Ladybird.png',
+	'Funerary_Scarab': 'images/e/e7/Funerary_Scarab.png',
+	'Primeval_(roller_beetle_skin)': 'images/d/d1/Primeval_%28roller_beetle_skin%29.png',
+	'Trailblazer_(mount_skin)': 'images/a/a2/Trailblazer_%28mount_skin%29.png',
 };

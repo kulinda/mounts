@@ -44,14 +44,8 @@ export default function FAQ(props) {
 		<A>Be excellent to each other. Avoid toxicity and negativity. Help new players. Organize events. Tag up at metas and provide explanations. Listen to your commanders.<br />
 		It's in every player's power to make the game a better place for everyone. I'm doing my part with research and programming. You go do yours.</A>
 
-		<h2>Copyright and legal notices</h2>
-		This tool was written by Kulinda. The source code and its license can be found on <a href="https://github.com/kulinda/mounts/" target="_blank" rel="noopener noreferrer">github.com/kulinda</a>.<br />
-		<br />
-		The favicon and all mount icons are © ArenaNet, LLC; this project is using them as allowed per the <a href="https://www.guildwars2.com/en/legal/guild-wars-2-content-terms-of-use/" target="_blank" rel="noopener noreferrer">Guild Wars 2 Content Terms of Use</a>.<br />
-		<br />
-		<i>Guild Wars 2</i> is a trademark or registered trademark of NCSOFT Corporation. This tool is a fan project, and neither affiliated with ArenaNet nor NCSOFT.<br />
-		<br />
-		This tool uses code from the following open source projects: <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a> (MIT license).<br />
+		<h2>Copyright, legal notices and contact</h2>
+		See <a href="https://kulinda.github.io/" target="_blank" rel="noopener noreferrer">kulinda.github.io</a>.
 		<br />
 		<br />
 	</div>;
