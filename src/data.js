@@ -49,10 +49,29 @@ const racer = {
 	}
 };
 
+const distantlands = {
+	name: 'Distant Lands',
+	prices: {
+		1: 400,
+		5: 1800,
+		15: 5100,
+		select: 1200
+	},
+	mounts: {
+		'raptor': ['Auric Salamander', 'Luminous Prowler'],
+		'springer': ['Krytan Lop', 'Starfall', 'Timberland Badged'],
+		'skimmer': ['Banded Wave Fin', 'Southsun Torpedo'],
+		'jackal': ['Exalted Ley Hunter', 'Liminal Moorhound'],
+		'griffon': ['Sand Souled', 'Snow Stalker', 'Shiverpeaks Pileated'],
+		'beetle': ['Alloyed Construct', 'Striped Bahdzan', 'Jagged Kournan'],
+	}
+};
+
 export const packs = [
 	original,
 	istani,
 	racer,
+	distantlands,
 ];
 
 export const iconurls = {
@@ -116,4 +135,19 @@ export const iconurls = {
 	'Funerary_Scarab': 'images/e/e7/Funerary_Scarab.png',
 	'Primeval_(roller_beetle_skin)': 'images/d/d1/Primeval_%28roller_beetle_skin%29.png',
 	'Trailblazer_(mount_skin)': 'images/a/a2/Trailblazer_%28mount_skin%29.png',
+  'Auric_Salamander': 'images/a/a6/Auric_Salamander.png',
+  'Luminous_Prowler': 'images/3/37/Luminous_Prowler.png',
+  'Krytan_Lop': 'images/2/2f/Krytan_Lop.png',
+  'Starfall': 'images/a/a6/Starfall.png',
+  'Timberland_Badged': 'images/3/38/Timberland_Badged.png',
+  'Banded_Wave_Fin': 'images/f/f3/Banded_Wave_Fin.png',
+  'Southsun_Torpedo': 'images/2/2c/Southsun_Torpedo.png',
+  'Exalted_Ley_Hunter': 'images/f/f6/Exalted_Ley_Hunter.png',
+  'Liminal_Moorhound': 'images/f/f9/Liminal_Moorhound.png',
+  'Sand_Souled': 'images/b/b1/Sand_Souled.png',
+  'Snow_Stalker': 'images/f/fa/Snow_Stalker.png',
+  'Shiverpeaks_Pileated': 'images/8/80/Shiverpeaks_Pileated.png',
+  'Alloyed_Construct': 'images/6/68/Alloyed_Construct.png',
+  'Striped_Bahdzan': 'images/f/fd/Striped_Bahdzan.png',
+  'Jagged_Kournan': 'images/9/9a/Jagged_Kournan.png',
 };
