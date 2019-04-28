@@ -59,7 +59,7 @@ export default class MountHelper extends React.Component {
 	render() {
 		let {packidx, prices, selections} = this.state;
 
-		return <div>
+		return <React.Fragment>
 			<div className={'kulinda_header' + (packidx < 0 ? ' open' : '')}>
 				<div className='inner'>
 					<a href="https://kulinda.github.io/">Kulinda's GW2 Tools</a><span className='toolname'> > Mount Adoption Helper</span>
@@ -80,7 +80,7 @@ export default class MountHelper extends React.Component {
 					<FAQ />
 				}
 			</div>
-		</div>;
+		</React.Fragment>;
 	}
 }
 
