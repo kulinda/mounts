@@ -62,8 +62,26 @@ const distantlands = {
 		'springer': ['Krytan Lop', 'Starfall', 'Timberland Badged'],
 		'skimmer': ['Banded Wave Fin', 'Southsun Torpedo'],
 		'jackal': ['Exalted Ley Hunter', 'Liminal Moorhound'],
-		'griffon': ['Sand Souled', 'Snow Stalker', 'Shiverpeaks Pileated'],
+		'griffon': ['Sand Souled (griffon skin)', 'Snow Stalker', 'Shiverpeaks Pileated'],
 		'beetle': ['Alloyed Construct', 'Striped Bahdzan', 'Jagged Kournan'],
+	}
+};
+
+const exoticbreeds = {
+	name: 'Exotic Breeds',
+	prices: {
+		1: 400,
+		5: 1800,
+		15: 5100,
+		select: 1200
+	},
+	mounts: {
+		'raptor': ['Masked Runner', 'Primordial Raptor', 'Exalted Gate Guardian'],
+		'springer': ['Savannah Striperail', 'Brisban Brushtail', 'Alloyed Irontail'],
+		'skimmer': ['Spotted Orchid', 'Sand Souled (skimmer skin)'],
+		'jackal': ['Vabbi Lightpaw', 'Alloyed Quicksilver'],
+		'griffon': ['Kournan Bright-Tail', 'Primeval (griffon skin)', 'Arctic Icewing'],
+		'beetle': ['Ntouka Snakeshell', 'Starshell'],
 	}
 };
 
@@ -72,6 +90,7 @@ export const packs = [
 	istani,
 	racer,
 	distantlands,
+	exoticbreeds,
 ];
 
 export const iconurls = {
@@ -135,19 +154,34 @@ export const iconurls = {
 	'Funerary_Scarab': 'images/e/e7/Funerary_Scarab.png',
 	'Primeval_(roller_beetle_skin)': 'images/d/d1/Primeval_%28roller_beetle_skin%29.png',
 	'Trailblazer_(mount_skin)': 'images/a/a2/Trailblazer_%28mount_skin%29.png',
-  'Auric_Salamander': 'images/a/a6/Auric_Salamander.png',
-  'Luminous_Prowler': 'images/3/37/Luminous_Prowler.png',
-  'Krytan_Lop': 'images/2/2f/Krytan_Lop.png',
-  'Starfall': 'images/a/a6/Starfall.png',
-  'Timberland_Badged': 'images/3/38/Timberland_Badged.png',
-  'Banded_Wave_Fin': 'images/f/f3/Banded_Wave_Fin.png',
-  'Southsun_Torpedo': 'images/2/2c/Southsun_Torpedo.png',
-  'Exalted_Ley_Hunter': 'images/f/f6/Exalted_Ley_Hunter.png',
-  'Liminal_Moorhound': 'images/f/f9/Liminal_Moorhound.png',
-  'Sand_Souled': 'images/b/b1/Sand_Souled.png',
-  'Snow_Stalker': 'images/f/fa/Snow_Stalker.png',
-  'Shiverpeaks_Pileated': 'images/8/80/Shiverpeaks_Pileated.png',
-  'Alloyed_Construct': 'images/6/68/Alloyed_Construct.png',
-  'Striped_Bahdzan': 'images/f/fd/Striped_Bahdzan.png',
-  'Jagged_Kournan': 'images/9/9a/Jagged_Kournan.png',
+	'Auric_Salamander': 'images/a/a6/Auric_Salamander.png',
+	'Luminous_Prowler': 'images/3/37/Luminous_Prowler.png',
+	'Krytan_Lop': 'images/2/2f/Krytan_Lop.png',
+	'Starfall': 'images/a/a6/Starfall.png',
+	'Timberland_Badged': 'images/3/38/Timberland_Badged.png',
+	'Banded_Wave_Fin': 'images/f/f3/Banded_Wave_Fin.png',
+	'Southsun_Torpedo': 'images/2/2c/Southsun_Torpedo.png',
+	'Exalted_Ley_Hunter': 'images/f/f6/Exalted_Ley_Hunter.png',
+	'Liminal_Moorhound': 'images/f/f9/Liminal_Moorhound.png',
+	'Sand_Souled_(griffon_skin)': 'images/d/da/Sand_Souled_(griffon_skin).png',
+	'Snow_Stalker': 'images/f/fa/Snow_Stalker.png',
+	'Shiverpeaks_Pileated': 'images/8/80/Shiverpeaks_Pileated.png',
+	'Alloyed_Construct': 'images/6/68/Alloyed_Construct.png',
+	'Striped_Bahdzan': 'images/f/fd/Striped_Bahdzan.png',
+	'Jagged_Kournan': 'images/9/9a/Jagged_Kournan.png',
+	'Masked_Runner': 'images/8/8b/Masked_Runner.png',
+	'Primordial_Raptor': 'images/2/25/Primordial_Raptor.png',
+	'Exalted_Gate_Guardian': 'images/b/b3/Exalted_Gate_Guardian.png',
+	'Savannah_Striperail': 'images/a/a9/Savannah_Striperail.png',
+	'Brisban_Brushtail': 'images/7/78/Brisban_Brushtail.png',
+	'Alloyed_Irontail': 'images/9/97/Alloyed_Irontail.png',
+	'Spotted_Orchid': 'images/e/eb/Spotted_Orchid.png',
+	'Sand_Souled_(skimmer_skin)': 'images/a/a0/Sand_Souled_%28skimmer_skin%29.png',
+	'Vabbi_Lightpaw': 'images/e/ef/Vabbi_Lightpaw.png',
+	'Alloyed_Quicksilver': 'images/7/7a/Alloyed_Quicksilver.png',
+	'Kournan_Bright-Tail': 'images/a/ad/Kournan_Bright-Tail.png',
+	'Primeval_(griffon_skin)': 'images/0/03/Primeval_%28griffon_skin%29.png',
+	'Arctic_Icewing': 'images/6/6b/Arctic_Icewing.png',
+	'Ntouka_Snakeshell': 'images/7/76/Ntouka_Snakeshell.png',
+	'Starshell': 'images/d/d6/Starshell.png',
 };
