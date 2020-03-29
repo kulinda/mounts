@@ -77,11 +77,51 @@ const exoticbreeds = {
 	},
 	mounts: {
 		'raptor': ['Masked Runner', 'Primordial Raptor', 'Exalted Gate Guardian'],
-		'springer': ['Savannah Striperail', 'Brisban Brushtail', 'Alloyed Irontail'],
+		'springer': ['Savannah Stripetail', 'Brisban Brushtail', 'Alloyed Irontail'],
 		'skimmer': ['Spotted Orchid', 'Sand Souled (skimmer skin)'],
-		'jackal': ['Vabbi Lightpaw', 'Alloyed Quicksilver'],
+		'jackal': ['Vabbian Lightpaw', 'Alloyed Quicksilver'],
 		'griffon': ['Kournan Bright-Tail', 'Primeval (griffon skin)', 'Arctic Icewing'],
 		'beetle': ['Ntouka Snakeshell', 'Starshell'],
+	}
+};
+
+const newhorizons = {
+	name: 'New Horizons',
+	prices: {
+		1: 400,
+		5: 1800,
+		15: 5100,
+		select: 1200
+	},
+	mounts: {
+		'raptor': ['Vital Geode', 'Lithosol (raptor skin)'],
+		'springer': ['Cascade Heeler', 'Maguuma Jackrabbit'],
+		'skimmer': ['Luminous Ray'],
+		'jackal': ['Sun Stalker', 'Fulgurite Ridgeback'],
+		'griffon': ['Crowned Skyfisher'],
+		'beetle': ['Deep Desert Scarab', 'Arctic Razor'],
+		'skyscale': ['Glademire', 'Broad-Horn Bull', 'Incarnate Flame'],
+		'warclaw': ['Savage Gladiator', 'Starclaw'],
+	}
+};
+
+const mistborn = {
+	name: 'Mistborn',
+	prices: {
+		1: 400,
+		5: 1800,
+		15: 5100,
+		select: 1200
+	},
+	mounts: {
+		'raptor': ['Crested Plainsrunner', 'Primeval (raptor skin)'],
+		'springer': ['Lucent Sands'],
+		'skimmer': ['Lithosol (skimmer skin)'],
+		'jackal': ['Caledon Short-Tail', 'Exalted Ley Vaulter'],
+		'griffon': ['Point-Tipped Corvus', 'Luminous Hunter'],
+		'beetle': ['Nautiloid', 'Branded Roller Beetle'],
+		'skyscale': ['Stripe-Winged Skyscale', 'Speckled Shortfang', 'Cozy Wintersday Skyscale'],
+		'warclaw': ['Iceforged Reaver', 'Stormclaw'],
 	}
 };
 
@@ -91,6 +131,8 @@ export const packs = [
 	racer,
 	distantlands,
 	exoticbreeds,
+	newhorizons,
+	mistborn,
 ];
 
 export const iconurls = {
