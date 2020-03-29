@@ -23,31 +23,16 @@ body {
 	.leftcol {
 		width: 880px;
 	}
-	.kulinda_header .links {
-		left: 400px;
-	}
 }
 /* ~284px each */
 @media (min-width: 916px) and (max-width: 1199px) {
 	.leftcol {
 		width: 596px;
 	}
-	.kulinda_header .links {
-		left: 150px;
-	}
-	.kulinda_header .toolname {
-		display: none;
-	}
 }
 @media (max-width: 915px) {
 	.leftcol {
 		width: 312px;
-	}
-	.kulinda_header .links {
-		left: 150px;
-	}
-	.kulinda_header .toolname {
-		display: none;
 	}
 }
 
@@ -92,11 +77,9 @@ div.button.active:before {
 	content: '\2713'; /* bold: 2714, but that's an emoji */
 }
 
-
-
 .kulinda_header {
-	height: 32px;
-	line-height: 32px;
+	line-height: 48px;
+	padding-left: 150px;
 	background-color: rgb(38, 23, 2); /* Midnight Gold on cloth */
 }
 
@@ -105,35 +88,25 @@ div.button.active:before {
 }
 
 .kulinda_header .links {
-	position: absolute;
-	height: 32px;
-	z-index: 999;
-
-	top: 0px;
-	transition: top 0.5s ease, margin-left 0.5s ease;
-}
-
-.kulinda_header.open .links {
-	top: 50px;
-	margin-left: -100px;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 .kulinda_header .link {
 	display: inline-block;
-	margin-left: 20px;
-	padding: 0px 10px;
+	margin-left: 1em;
+	padding: 0px 1em;
 	line-height: 32px;
 	cursor: pointer;
 	transition: color 0.5s ease, background-color 0.5s ease;
 	background-color: rgb(38, 23, 2);
+	font-size: 80%;
 }
 
 .kulinda_header .link.active {
 	background-color: black;
 }
-.kulinda_header.open .link.active {
-	background-color: #222;
-}
+
 .kulinda_header .link:hover {
 	color: white;
 }

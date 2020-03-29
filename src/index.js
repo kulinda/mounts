@@ -60,15 +60,12 @@ export default class MountHelper extends React.Component {
 		let {packidx, prices, selections} = this.state;
 
 		return <React.Fragment>
-			<div className={'kulinda_header' + (packidx < 0 ? ' open' : '')}>
-				<div className='inner'>
-					<a href="https://kulinda.github.io/">Kulinda's GW2 Tools</a><span className='toolname'> > Mount Adoption Helper</span>
-					<div className='links'>
-						<div className={'link' + (packidx===-1 ? ' active' : '')} onClick={e => this.changePack(-1)}>FAQ</div>
-						{packs.map((p, i) => <div className={'link' + (packidx===i ? ' active' : '')} key={i} onClick={e => this.changePack(i)}>
-							{p.name}
-						</div>)}
-					</div>
+			<div className='kulinda_header'>
+				<div className='links'>
+					<div className={'link' + (packidx===-1 ? ' active' : '')} onClick={e => this.changePack(-1)}>FAQ</div>
+					{packs.map((p, i) => <div className={'link' + (packidx===i ? ' active' : '')} key={i} onClick={e => this.changePack(i)}>
+						{p.name}
+					</div>)}
 				</div>
 			</div>
 			<div className='inner'>
