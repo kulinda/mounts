@@ -62,6 +62,10 @@ export default class MountHelper extends React.Component {
 		return <React.Fragment>
 			<div className='kulinda_header'>
 				<div className='links'>
+					<div className='link _kulinda_menu' onClick={() => null}>
+						<img src="https://kulinda.github.io/kulinda_head.png" alt="" />
+						Kulinda's GW2 Stuff
+					</div>
 					<div className={'link' + (packidx===-1 ? ' active' : '')} onClick={e => this.changePack(-1)}>FAQ</div>
 					{packs.map((p, i) => <div className={'link' + (packidx===i ? ' active' : '')} key={i} onClick={e => this.changePack(i)}>
 						{p.name}

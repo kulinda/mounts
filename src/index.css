@@ -79,7 +79,6 @@ div.button.active:before {
 
 .kulinda_header {
 	line-height: 48px;
-	padding-left: 150px;
 	background-color: rgb(38, 23, 2); /* Midnight Gold on cloth */
 }
 
@@ -94,9 +93,11 @@ div.button.active:before {
 
 .kulinda_header .link {
 	display: inline-block;
+	position: relative;
 	margin-left: 1em;
 	padding: 0px 1em;
 	line-height: 32px;
+	height: 32px;
 	cursor: pointer;
 	transition: color 0.5s ease, background-color 0.5s ease;
 	background-color: rgb(38, 23, 2);
@@ -109,4 +110,11 @@ div.button.active:before {
 
 .kulinda_header .link:hover {
 	color: white;
+}
+
+.kulinda_header .link > img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 0.5em;
+	height: 100%;
 }
